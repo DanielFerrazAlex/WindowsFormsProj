@@ -1,10 +1,16 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Windows.Forms;
 
 namespace AppLogin.Pages
 {
     public partial class Form2 : Form
     {
+        MySqlConnection con;
+        MySqlCommand command;
+        MySqlDataAdapter da;
+        MySqlDataReader dr;
+        string strSQL;
         public Form2()
         {
             InitializeComponent();
@@ -14,14 +20,27 @@ namespace AppLogin.Pages
         {
             try
             {
-                if(TextBLogin.Text != null && TextBSenha.Text != null && TextBEmail.Text != null)
-                {
-                    this.Hide();
-                } 
+                con = new MySqlConnection("Server=localhost;Database=cadastro;Uid=root;Pwd=Onaganet0;");
+                strSQL = "INSERT INTO CLIENTES (Login, Senha, Email) VALUES (@Login, @Senha, @Email)";
+
+                command = new MySqlCommand(strSQL, con);
+                command.Parameters.AddWithValue("@Login", TextBLogin.Text);
+                command.Parameters.AddWithValue("@Senha", TextBSenha.Text);
+                command.Parameters.AddWithValue("@Email", TextBEmail.Text);
+
+                con.Open();
+                command.ExecuteNonQuery();
             }
-            catch (ArgumentException)
+            catch (Exception ex)
             {
-                throw new ArgumentException("Algo deu errado! Tente novamente mais tarde");
+
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                con.Close();
+                con = null;
+                command = null;
             }
         }
 

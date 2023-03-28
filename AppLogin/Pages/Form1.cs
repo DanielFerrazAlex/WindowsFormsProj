@@ -13,16 +13,7 @@ namespace AppLogin
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if(TextBLogin.Text == "Daniel" && TextBSenha.Text == "Daniel")
-            {
-                this.Hide();
-                var Form = new Form3();
-                Form.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Senha invalida!");
-            }
+            
         }
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
