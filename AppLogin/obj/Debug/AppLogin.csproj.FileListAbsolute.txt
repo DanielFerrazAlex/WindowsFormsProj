@@ -70,3 +70,40 @@ C:\Users\danie\OneDrive\Área de Trabalho\WindowsFormsProj\AppLogin\obj\Debug\Ap
 C:\Users\danie\OneDrive\Área de Trabalho\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.CopyComplete
 C:\Users\danie\OneDrive\Área de Trabalho\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.exe
 C:\Users\danie\OneDrive\Área de Trabalho\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.pdb
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\AppLogin.exe.config
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\AppLogin.exe
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\AppLogin.pdb
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\Google.Protobuf.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\MySql.Data.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Buffers.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Memory.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\Google.Protobuf.pdb
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\Google.Protobuf.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\MySql.Data.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Buffers.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Memory.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.AssemblyReference.cache
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.SuggestedBindingRedirects.cache
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.exe.config
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.Form1.resources
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.Pages.Form2.resources
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.Pages.Form3.resources
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.Pages.Form4.resources
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.Properties.Resources.resources
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.GenerateResource.cache
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.CoreCompileInputs.cache
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.csproj.CopyComplete
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.exe
+C:\Users\125430\Desktop\WindowsFormsProj\AppLogin\obj\Debug\AppLogin.pdb

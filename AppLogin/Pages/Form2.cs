@@ -6,11 +6,10 @@ namespace AppLogin.Pages
 {
     public partial class Form2 : Form
     {
-        MySqlConnection con;
-        MySqlCommand command;
-        MySqlDataAdapter da;
-        MySqlDataReader dr;
+        MySqlConnection con = new MySqlConnection("Server=localhost;Database=cadastro;Uid=root;Pwd=Onaganet0;");
+        MySqlCommand cmd;
         string strSQL;
+        public string MessageError = "";
         public Form2()
         {
             InitializeComponent();
@@ -20,29 +19,24 @@ namespace AppLogin.Pages
         {
             try
             {
-                con = new MySqlConnection("Server=localhost;Database=cadastro;Uid=root;Pwd=Onaganet0;");
                 strSQL = "INSERT INTO CLIENTES (Login, Senha, Email) VALUES (@Login, @Senha, @Email)";
-
-                command = new MySqlCommand(strSQL, con);
-                command.Parameters.AddWithValue("@Login", TextBLogin.Text);
-                command.Parameters.AddWithValue("@Senha", TextBSenha.Text);
-                command.Parameters.AddWithValue("@Email", TextBEmail.Text);
+                cmd = new MySqlCommand(strSQL, con);
+                cmd.Parameters.AddWithValue("@Login", TextBLogin.Text);
+                cmd.Parameters.AddWithValue("@Senha", TextBSenha.Text);
+                cmd.Parameters.AddWithValue("@Email", TextBEmail.Text);
 
                 con.Open();
-                command.ExecuteNonQuery();
+                cmd.ExecuteNonQuery();
                 MessageBox.Show("Cadastro Realizado!");
                 this.Hide();
             }
-            catch (Exception ex)
+            catch(MySqlException)
             {
-
-                MessageBox.Show(ex.Message);
+                this.MessageError = "Error with DataBase";
             }
             finally
             {
                 con.Close();
-                con = null;
-                command = null;
             }
         }
     }
