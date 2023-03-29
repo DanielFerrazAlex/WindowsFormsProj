@@ -81,9 +81,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Controllers\Controller.cs" />
-    <Compile Include="DAL\Connections.cs" />
-    <Compile Include="DAL\LoginDaoCommands.cs" />
     <Compile Include="Pages\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

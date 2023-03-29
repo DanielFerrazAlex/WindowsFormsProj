@@ -44,7 +44,7 @@ namespace AppLogin
             catch (MySqlException)
             {
 
-                this.MessageError = "Error with DataBase";
+                this.MessageError = "Erro no Banco de Dados";
             }
             finally 
             {
