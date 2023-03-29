@@ -30,6 +30,8 @@ namespace AppLogin.Pages
 
                 con.Open();
                 command.ExecuteNonQuery();
+                MessageBox.Show("Cadastro Realizado!");
+                this.Hide();
             }
             catch (Exception ex)
             {
@@ -43,7 +45,5 @@ namespace AppLogin.Pages
                 command = null;
             }
         }
-
-
     }
 }
