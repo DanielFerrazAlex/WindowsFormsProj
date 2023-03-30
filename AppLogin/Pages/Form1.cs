@@ -33,6 +33,8 @@ namespace AppLogin
                 if (i == 0)
                 {
                     MessageBox.Show("Login ou Senha inválido!");
+                    TextBLogin.Focus();
+                    TextBSenha.Focus();
                 }
                 else
                 {
